@@ -1,24 +1,25 @@
 export const links = [
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',
+    label: "Home",
+    icon: "HomeIcon",
+    href: "/",
   },
   {
-    label: 'Info',
-    icon: 'InfoIcon',
+    label: "Info",
+    icon: "InfoIcon",
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+        label: "PancakeSwap",
+        href:
+          "https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0",
         external: true,
       },
     ],
   },
   {
-    label: 'Github',
-    icon: 'GithubIcon',
-    href: 'https://github.com/polyhodl',
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/polyhodl",
     external: true,
   },
 ];
